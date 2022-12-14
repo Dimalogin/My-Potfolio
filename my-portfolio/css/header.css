@@ -1,0 +1,287 @@
+.header__sidenav {
+  background-color: #181818;
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+
+.header__logotype {
+  background-color: black;
+  text-align: center;
+}
+
+.logotype__icon {
+  padding-left: 15px;
+  font-size: 13em;
+  text-shadow: -20px 0px 0px #05fdd8;
+  font-family: "NEXT-ART-bold";
+  color: #e45256;
+}
+
+.logotype__name {
+  color: white;
+  font-family: "NEXT-ART-bold";
+  font-size: 2.4em;
+}
+
+.logotype__position {
+  color: white;
+  padding: 30px 0px 20px 0px;
+  font-family: "ArodoraPro";
+  font-size: 1.2em;
+}
+
+.header__navigation {
+  padding: 30px 0px 60px 70px;
+}
+
+.header__item a {
+  outline: none;
+}
+
+.header__item a:focus {
+  color: #05fdd8;
+}
+
+.header__link {
+  display: block;
+  font-size: 26px;
+  font-family: "ArodoraPro";
+  color: white;
+  line-height: 45px;
+}
+
+.header__link:hover {
+  transition: 0.3s;
+  color: #05fdd8;
+}
+
+.header__contacts {
+  padding: 0px 0px 30px 0px;
+}
+
+.contacts__list {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__item {
+  margin-right: 30px;
+}
+
+.contacts__item:last-child {
+  margin-right: 0px;
+}
+
+.contacts__link svg {
+  width: 40px;
+}
+
+.contacts__link svg:hover {
+  fill: #05fdd8;
+  transition: 0.3s;
+}
+
+.header__logo-school {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-school__body {
+  background-color: black;
+  width: 150px;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 20px;
+}
+
+/*Navigation Mobile*/
+
+.header__sidenav--mobile {
+  min-width: 340px;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 20px 30px 20px 0px;
+  display: none;
+}
+
+.open__btn--mobile {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item--mobile {
+  width: 40px;
+  height: 5px;
+  background-color: white;
+  margin-bottom: 7px;
+  border-radius: 10px;
+}
+
+.item--mobile:last-child {
+  margin-bottom: 0px;
+}
+
+.open__btn--mobile:hover .item--mobile {
+  transition: 0.3s;
+  background-color: #05fdd8;
+}
+
+/*Panel*/
+
+.sidenav__panel--mobile {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background-color: #181818;
+}
+
+.close__btn--mobile {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 11px 0px;
+  cursor: pointer;
+}
+
+.close__btn--mobile:hover .close__item-1,
+.close__btn--mobile:hover .close__item-2 {
+  background-color: #05fdd8;
+  transition: 0.3s;
+}
+
+.close__item-1,
+.close__item-2 {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.close__item-1 {
+  transform: rotate(-45deg) translate(-9px, 8px);
+}
+
+.close__item-2 {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+
+.header__logotype--mobile {
+  background-color: black;
+  text-align: center;
+}
+
+.logotype__icon--mobile {
+  padding-left: 15px;
+  font-size: 13em;
+  text-shadow: -20px 0px 0px #05fdd8;
+  font-family: "NEXT-ART-bold";
+  color: #e45256;
+}
+
+.logotype__name--mobile {
+  color: white;
+  font-family: "NEXT-ART-bold";
+  font-size: 2.4em;
+}
+
+.logotype__position--mobile {
+  color: white;
+  padding: 30px 0px 20px 0px;
+  font-family: "ArodoraPro";
+  font-size: 1.2em;
+}
+
+.header__navigation--mobile {
+  padding: 30px 0px 60px 70px;
+}
+
+.header__item--mobile a {
+  outline: none;
+}
+
+.header__link--mobile {
+  display: block;
+  font-size: 26px;
+  font-family: "ArodoraPro";
+  color: white;
+  line-height: 45px;
+}
+
+.header__link--mobile:hover {
+  transition: 0.3s;
+  color: #05fdd8;
+}
+
+.header__contacts--mobile {
+  padding: 0px 0px 30px 0px;
+}
+
+.contacts__list--mobile {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__item--mobile {
+  margin-right: 30px;
+}
+
+.contacts__item--mobile:last-child {
+  margin-right: 0px;
+}
+
+.contacts__link--mobile svg {
+  width: 40px;
+}
+
+.contacts__link--mobile svg:hover {
+  fill: #05fdd8;
+  transition: 0.3s;
+}
+
+.header__logo-school--mobile {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-school__body--mobile {
+  background-color: black;
+  width: 150px;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 20px;
+}
+
+/*Media*/
+
+@media all and (max-width: 1000px) {
+  .header__sidenav {
+    display: none;
+  }
+  .header__sidenav--mobile {
+    display: flex;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .header__sidenav--mobile {
+    padding: 20px 30px 20px 0px;
+  }
+}
