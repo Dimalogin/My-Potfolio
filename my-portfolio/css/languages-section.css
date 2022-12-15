@@ -42,7 +42,7 @@
   font-size: 24px;
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 1200px) {
   .languages-section__row {
     flex-direction: column;
   }
@@ -52,6 +52,7 @@
     margin-right: 0px;
     margin-bottom: 50px;
   }
+
   .languages-section__language:last-child {
     margin-bottom: 0px;
   }
