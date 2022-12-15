@@ -1,6 +1,7 @@
 import Router from "./scripts/router.js";
 
 (function router() {
+  window.location.hash = "home";
   Router.init();
 })();
 
