@@ -1,0 +1,53 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./home.css);
+@import url(./about-me-section.css);
+@import url(./skills-section.css);
+@import url(./projects-section.css);
+@import url(./education-section.css);
+@import url(./languages-section.css);
+
+@font-face {
+  font-family: "NEXT-ART-bold";
+  src: url("../fonts/NEXT\ ART_Bold.otf");
+}
+
+@font-face {
+  font-family: "NEXT-ART-regular";
+  src: url("../fonts/NEXT\ ART_Regular.otf");
+}
+
+@font-face {
+  font-family: "ArodoraPro";
+  src: url("../fonts/ArodoraPro-Light.otf");
+}
+
+body {
+  background-color: #1d1d1d;
+  min-height: 100%;
+}
+
+.main {
+  margin-left: 300px;
+  padding: 100px 50px;
+  min-width: 340px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+@media all and (max-width: 1000px) {
+  .main {
+    margin-left: 0px;
+    padding: 50px 50px 100px 50px;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .main {
+    margin-left: 0px;
+    padding: 30px 20px 100px 20px;
+  }
+}

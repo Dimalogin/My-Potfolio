@@ -1,0 +1,28 @@
+.about-section__title {
+  font-family: "NEXT-ART-regular";
+  font-size: 48px;
+  color: white;
+  padding: 0px 0px 50px 0px;
+}
+
+.about-section__text {
+  background-color: #393939;
+  border-radius: 30px;
+  padding: 50px;
+  border-top: 10px solid #05fdd8;
+
+  font-family: "ArodoraPro";
+  color: white;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.about-section__text span {
+  display: block;
+  line-height: 1.5;
+  padding-bottom: 15px;
+}
+
+.about-section__text span:last-child {
+  padding-bottom: 0px;
+}
