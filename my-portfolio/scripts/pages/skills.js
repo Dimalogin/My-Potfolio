@@ -71,11 +71,11 @@ export default {
     );
 
     setTimeout(function () {
-      const id = setInterval(progHtml, 10);
+      const id = setInterval(moveProg, 10);
       let width = 0;
 
-      function progHtml() {
-        if (width >= 90) {
+      function moveProg() {
+        if (width >= 80) {
           clearInterval(id);
         } else {
           width++;
@@ -86,11 +86,11 @@ export default {
     }, 500);
 
     setTimeout(function () {
-      const id = setInterval(progHtml, 10);
+      const id = setInterval(moveProg, 10);
       let width = 0;
 
-      function progHtml() {
-        if (width >= 80) {
+      function moveProg() {
+        if (width >= 70) {
           clearInterval(id);
         } else {
           width++;
@@ -101,10 +101,10 @@ export default {
     }, 800);
 
     setTimeout(function () {
-      const id = setInterval(progHtml, 10);
+      const id = setInterval(moveProg, 10);
       let width = 0;
 
-      function progHtml() {
+      function moveProg() {
         if (width >= 20) {
           clearInterval(id);
         } else {
@@ -116,11 +116,11 @@ export default {
     }, 1100);
 
     setTimeout(function () {
-      const id = setInterval(progHtml, 10);
+      const id = setInterval(moveProg, 10);
       let width = 0;
 
-      function progHtml() {
-        if (width >= 60) {
+      function moveProg() {
+        if (width >= 40) {
           clearInterval(id);
         } else {
           width++;
@@ -131,10 +131,10 @@ export default {
     }, 1400);
 
     setTimeout(function () {
-      const id = setInterval(progHtml, 10);
+      const id = setInterval(moveProg, 10);
       let width = 0;
 
-      function progHtml() {
+      function moveProg() {
         if (width >= 5) {
           clearInterval(id);
         } else {
@@ -146,10 +146,10 @@ export default {
     }, 1700);
 
     setTimeout(function () {
-      const id = setInterval(progHtml, 10);
+      const id = setInterval(moveProg, 10);
       let width = 0;
 
-      function progHtml() {
+      function moveProg() {
         if (width >= 10) {
           clearInterval(id);
         } else {
@@ -161,10 +161,10 @@ export default {
     }, 2000);
 
     setTimeout(function () {
-      const id = setInterval(progHtml, 10);
+      const id = setInterval(moveProg, 10);
       let width = 0;
 
-      function progHtml() {
+      function moveProg() {
         if (width >= 30) {
           clearInterval(id);
         } else {
@@ -176,10 +176,10 @@ export default {
     }, 2300);
 
     setTimeout(function () {
-      const id = setInterval(progHtml, 10);
+      const id = setInterval(moveProg, 10);
       let width = 0;
 
-      function progHtml() {
+      function moveProg() {
         if (width >= 20) {
           clearInterval(id);
         } else {
