@@ -155,10 +155,10 @@
   left: calc(50% - 250px);
   overflow: hidden;
 
-  background-image: url("../images/my-photo.jpg");
+  background-image: url("../images/IMG_20221218_215748.jpg");
   background-repeat: no-repeat;
-  background-size: 110%;
-  background-position: -5px -190px;
+  background-size: 120%;
+  background-position: center -70px;
 }
 
 @media all and (max-width: 1600px) {
@@ -215,8 +215,8 @@
     top: calc(50% - 180px);
     left: calc(50% - 180px);
 
-    background-size: 105%;
-    background-position: 0px -130px;
+    background-size: 120%;
+    background-position: center -60px;
   }
 }
 
@@ -285,8 +285,8 @@
     top: calc(50% - 140px);
     left: calc(50% - 140px);
 
-    background-size: 105%;
-    background-position: 0px -100px;
+    background-size: 120%;
+    background-position: center -50px;
   }
 }
 
@@ -358,7 +358,7 @@
     left: calc(50% - 140px);
 
     background-size: 105%;
-    background-position: 0px -100px;
+    background-position: center -40px;
   }
 }
 
@@ -450,8 +450,8 @@
     top: calc(50% - 100px);
     left: calc(50% - 100px);
 
-    background-size: 105%;
-    background-position: 0px -70px;
+    background-size: 120%;
+    background-position: center -40px;
   }
 }
 
@@ -530,7 +530,7 @@
     top: calc(50% - 100px);
     left: calc(50% - 100px);
 
-    background-size: 105%;
-    background-position: 0px -70px;
+    background-size: 120%;
+    background-position: center -30px;
   }
 }
