@@ -81,7 +81,7 @@
 }
 
 .home-section__link--cv {
-  display: block;
+  display: inline-block;
   width: 200px;
   height: 50px;
   border: 1px solid #85f2d7;
@@ -94,6 +94,25 @@
 }
 
 .home-section__link--cv:hover {
+  background-color: #85f2d7;
+  color: black;
+  transition: 0.3s;
+}
+
+.home-section__link--ml {
+  display: inline-block;
+  width: 60px;
+  height: 50px;
+  border: 1px solid #85f2d7;
+  text-align: center;
+  line-height: 50px;
+  color: #85f2d7;
+  font-size: 18px;
+  font-family: "NEXT-ART-bold";
+  border-radius: 5px;
+}
+
+.home-section__link--ml:hover {
   background-color: #85f2d7;
   color: black;
   transition: 0.3s;
