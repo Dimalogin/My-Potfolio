@@ -21,14 +21,14 @@
 
 .projects-section__image {
   flex: 0 1 60%;
-  overflow: hidden;
   border-radius: 30px;
 }
 
 .projects-section__image img {
   width: 100%;
-  height: 100%;
+  border-radius: 10px;
 }
+
 .projects-section__description {
   flex: 1 1 300px;
 

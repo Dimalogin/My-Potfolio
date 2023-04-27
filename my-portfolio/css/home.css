@@ -46,7 +46,7 @@
   font-family: "ArodoraPro";
   font-size: 22px;
   color: white;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   position: relative;
 }
 
@@ -63,7 +63,7 @@
 .home-section__text::after {
   content: "</p>";
   position: absolute;
-  top: 230px;
+  top: 180px;
   left: -20px;
   font-family: "La Belle Aurore", cursive;
   font-size: 30px;
@@ -198,7 +198,7 @@
   }
 
   .home-section__text::after {
-    top: 250px;
+    top: 230px;
     left: -20px;
   }
 
@@ -262,7 +262,7 @@
   }
 
   .home-section__text::after {
-    top: 250px;
+    top: 230px;
   }
 
   .home-section__image {
@@ -333,7 +333,7 @@
   }
 
   .home-section__text::after {
-    top: 250px;
+    top: 230px;
   }
 
   .home-section__image {
@@ -399,7 +399,7 @@
   }
 
   .home-section__text::after {
-    top: 220px;
+    top: 200px;
     left: -20px;
   }
 }
@@ -427,7 +427,7 @@
   }
 
   .home-section__text::after {
-    top: 270px;
+    top: 230px;
   }
 
   .home-section__image {
@@ -506,7 +506,7 @@
   }
 
   .home-section__text::after {
-    top: 320px;
+    top: 280px;
     left: -10px;
   }
 
