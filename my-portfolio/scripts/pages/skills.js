@@ -105,7 +105,7 @@ export default {
       let width = 0;
 
       function moveProg() {
-        if (width >= 20) {
+        if (width >= 50) {
           clearInterval(id);
         } else {
           width++;
@@ -120,7 +120,7 @@ export default {
       let width = 0;
 
       function moveProg() {
-        if (width >= 40) {
+        if (width >= 60) {
           clearInterval(id);
         } else {
           width++;
@@ -135,7 +135,7 @@ export default {
       let width = 0;
 
       function moveProg() {
-        if (width >= 5) {
+        if (width >= 20) {
           clearInterval(id);
         } else {
           width++;
