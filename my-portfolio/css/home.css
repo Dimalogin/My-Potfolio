@@ -63,7 +63,7 @@
 .home-section__text::after {
   content: "</p>";
   position: absolute;
-  top: 180px;
+  top: 155px;
   left: -20px;
   font-family: "La Belle Aurore", cursive;
   font-size: 30px;
@@ -198,7 +198,7 @@
   }
 
   .home-section__text::after {
-    top: 230px;
+    top: 200px;
     left: -20px;
   }
 
@@ -262,7 +262,7 @@
   }
 
   .home-section__text::after {
-    top: 230px;
+    top: 180px;
   }
 
   .home-section__image {
@@ -333,7 +333,7 @@
   }
 
   .home-section__text::after {
-    top: 230px;
+    top: 175px;
   }
 
   .home-section__image {
@@ -399,7 +399,7 @@
   }
 
   .home-section__text::after {
-    top: 200px;
+    top: 150px;
     left: -20px;
   }
 }
@@ -506,7 +506,7 @@
   }
 
   .home-section__text::after {
-    top: 280px;
+    top: 220px;
     left: -10px;
   }
 
